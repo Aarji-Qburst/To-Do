@@ -1,0 +1,8 @@
+.toast{
+    &-error{
+        background: $to-do-tost-error;
+    }
+    &-success{
+        background: $to-do-tost-success;
+    }    
+}

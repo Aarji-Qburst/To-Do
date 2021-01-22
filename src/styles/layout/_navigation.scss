@@ -1,0 +1,15 @@
+@import "~src/styles/abstracts/variables";
+
+.side-menu{
+    margin-top: 3em;
+    list-style: none;
+    padding: 1em 0;
+    li{
+        outline: none;
+        cursor: pointer;
+        padding: .7em 1em;        
+        &.active{
+            background: $to-do-blue;
+        }
+    }
+}

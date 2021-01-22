@@ -1,0 +1,23 @@
+@import "~src/styles/abstracts/variables";
+
+$sideBarWidth:17em;
+.side-bar{
+    flex: 1 1 $sideBarWidth;
+    background: $to-do-primary;
+    color: $to-do-white;
+}
+.content-area{
+    .scroll-area{
+        overflow: auto;
+        padding: 1em;
+    }
+    background: #fafafa;
+    flex: 1 1 calc(100% - #{$sideBarWidth});
+    .header{
+        min-height: 4em;
+        border-bottom: 1px solid #ccc;
+    }
+    .footer{
+        border-top: 1px solid #ccc;
+    }
+}

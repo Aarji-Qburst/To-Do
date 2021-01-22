@@ -1,0 +1,10 @@
+.taskcard{
+    max-width: 40em;
+    margin: 1em auto !important;
+    &-todo{
+        background: $to-do-card-todo;
+    }
+    &-done{
+        background: $to-do-card-done;
+    }
+}
